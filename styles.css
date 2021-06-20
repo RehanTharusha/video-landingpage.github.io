@@ -191,6 +191,17 @@
     .showcase,.showcase header {
         padding: 40px;
     }
+        
+    .text {
+        text-align: left;
+        font-size: small;
+        position: relative;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
     .text h2 {
         font-size: 3em;
     }
@@ -198,6 +209,8 @@
     .text h3 {
         font-size: 2em;
     }
+
+
 }
 
 
